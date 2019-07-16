@@ -40,13 +40,13 @@ Story['author'] = username
 
 # Changes ending based on who user wants to win
 if userchoice == 'hero':
-    Story['winner'] = userhero + ' won'
+    Story['winner'] = userhero + ' won.'
 else:
-    Story['winner'] = uservillain + ' won'
+    Story['winner'] = uservillain + ' won.'
 Story['hero'] = userhero
 Story['villain'] = uservillain
 
-print('Brilliant! Now here is your story: \n')
+print('\n Brilliant! Now here is your story: \n')
 # Output's user's story
 print(Story['title'])
 print('By ' + Story['author'])
